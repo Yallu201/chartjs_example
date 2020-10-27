@@ -66,6 +66,9 @@ function App() {
                     yAxes: [
                         {
                             display: true,
+                            ticks: {
+                                stepSize: 10000,
+                            },
                         },
                     ],
                 },
